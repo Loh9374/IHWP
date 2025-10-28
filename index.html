@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurvedic Prakriti Assessment | Discover Your Dosha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-spa"></i>
+                    <h1>Ayurvedic Prakriti </h1>
+                </div>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#assessment">Assessment</a></li>
+                        <li><a href="#about">About Doshas</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Discover Your Ayurvedic Body Constitution</h2>
+            <p>Take this comprehensive assessment to identify your unique Prakriti (body-mind type) based on the ancient wisdom of Ayurveda.</p>
+            <a href="#assessment" class="btn">Start Assessment</a>
+        </div>
+    </section>
+
+    <!-- Assessment Section -->
+    <section id="assessment">
+        <div class="container">
+            <div class="assessment-container">
+                <div class="assessment-progress">
+                    <div class="progress-step">
+                        <div class="step-circle active">1</div>
+                        <div class="step-title">Physical</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-circle">2</div>
+                        <div class="step-title">Mental</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-circle">3</div>
+                        <div class="step-title">Habits</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-circle">4</div>
+                        <div class="step-title">Environment</div>
+                    </div>
+                    <div class="progress-step">
+                        <div class="step-circle">5</div>
+                        <div class="step-title">Results</div>
+                    </div>
+                </div>
+
+                <!-- Question 1: Physical Traits -->
+                <div class="question-section active" id="question-1">
+                    <h2 class="question-title">Physical Traits Observation</h2>
+                    
+                    <h3 class="question-category">Skin Type</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Dry</div>
+                            <div class="option-description">Skin tends to be dry, rough, or flaky</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Oily</div>
+                            <div class="option-description">Skin tends to be oily, with possible acne or inflammation</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Balanced</div>
+                            <div class="option-description">Skin is generally balanced, soft, and smooth</div>
+                        </div>
+                    </div>
+
+                    <h3 class="question-category">Body Build</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Thin</div>
+                            <div class="option-description">Naturally thin frame, may find it hard to gain weight</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Muscular</div>
+                            <div class="option-description">Moderate, well-proportioned build with good muscle tone</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Heavier</div>
+                            <div class="option-description">Larger frame, tends to gain weight easily</div>
+                        </div>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button class="btn" disabled>Previous</button>
+                        <button class="btn next-btn">Next</button>
+                    </div>
+                </div>
+
+                <!-- Question 2: Mental & Emotional Traits -->
+                <div class="question-section" id="question-2">
+                    <h2 class="question-title">Mental & Emotional Traits</h2>
+                    
+                    <h3 class="question-category">Mindset</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Restless</div>
+                            <div class="option-description">Mind is active, creative, but sometimes anxious</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Intense</div>
+                            <div class="option-description">Focused, determined, but can be irritable</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Calm</div>
+                            <div class="option-description">Generally calm, steady, and peaceful</div>
+                        </div>
+                    </div>
+
+                    <h3 class="question-category">Memory</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Quick but Short</div>
+                            <div class="option-description">Learn quickly but forget easily</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Sharp</div>
+                            <div class="option-description">Good memory, especially for details</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Slow but Long</div>
+                            <div class="option-description">Take time to learn but retain information well</div>
+                        </div>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button class="btn prev-btn">Previous</button>
+                        <button class="btn next-btn">Next</button>
+                    </div>
+                </div>
+
+                <!-- Question 3: Daily Habits -->
+                <div class="question-section" id="question-3">
+                    <h2 class="question-title">Daily Habits & Preferences</h2>
+                    
+                    <h3 class="question-category">Diet Preferences</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Warm & Moist</div>
+                            <div class="option-description">Prefer warm, cooked foods and hot drinks</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Cool & Sweet</div>
+                            <div class="option-description">Prefer cool, refreshing foods and drinks</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Light & Spicy</div>
+                            <div class="option-description">Prefer light, warm, and well-spiced foods</div>
+                        </div>
+                    </div>
+
+                    <h3 class="question-category">Sleep Patterns</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Light Sleeper</div>
+                            <div class="option-description">Light, interrupted sleep, may have insomnia</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Moderate Sleeper</div>
+                            <div class="option-description">Moderate sleep, may wake up during the night</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Deep Sleeper</div>
+                            <div class="option-description">Deep, long sleep, hard to wake up in the morning</div>
+                        </div>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button class="btn prev-btn">Previous</button>
+                        <button class="btn next-btn">Next</button>
+                    </div>
+                </div>
+
+                <!-- Question 4: Environmental Reactions -->
+                <div class="question-section" id="question-4">
+                    <h2 class="question-title">Environmental Reactions</h2>
+                    
+                    <h3 class="question-category">Weather Preferences</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Warm Weather</div>
+                            <div class="option-description">Dislike cold, prefer warm and humid climates</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Cool Weather</div>
+                            <div class="option-description">Dislike heat, prefer cool and breezy climates</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Warm & Dry</div>
+                            <div class="option-description">Dislike cold and damp, prefer warm and dry climates</div>
+                        </div>
+                    </div>
+
+                    <h3 class="question-category">Stress Response</h3>
+                    <div class="options-container">
+                        <div class="option-card" data-dosha="vata">
+                            <div class="option-title">Anxious</div>
+                            <div class="option-description">Become anxious, worried, or fearful under stress</div>
+                        </div>
+                        <div class="option-card" data-dosha="pitta">
+                            <div class="option-title">Irritable</div>
+                            <div class="option-description">Become irritable, angry, or critical under stress</div>
+                        </div>
+                        <div class="option-card" data-dosha="kapha">
+                            <div class="option-title">Withdrawn</div>
+                            <div class="option-description">Become withdrawn, avoidant, or lethargic under stress</div>
+                        </div>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button class="btn prev-btn">Previous</button>
+                        <button class="btn" id="calculate-results">See Results</button>
+                    </div>
+                </div>
+
+                <!-- Results Section -->
+                <div class="results-section" id="results">
+                    <h2 class="results-title">Your Ayurvedic Constitution</h2>
+                    
+                    <div class="dosha-result">
+                        <div class="dosha-name vata">Vata Dosha</div>
+                        <div class="dosha-description">
+                            <p>Your assessment shows a dominance of Vata dosha, which is composed of the elements Air and Space. People with Vata constitution tend to be creative, energetic, and lively when in balance.</p>
+                            <div class="dosha-traits">
+                                <div class="trait-card">
+                                    <div class="trait-title">Physical Traits</div>
+                                    <div>Thin build, dry skin, cold hands and feet</div>
+                                </div>
+                                <div class="trait-card">
+                                    <div class="trait-title">Mental Traits</div>
+                                    <div>Quick mind, creative, adaptable</div>
+                                </div>
+                                <div class="trait-card">
+                                    <div class="trait-title">When Imbalanced</div>
+                                    <div>Anxiety, insomnia, digestive issues</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="balancing-tips">
+                        <h3>Tips for Balancing Your Dosha</h3>
+                        <div class="dosha-description">
+                            <ul>
+                                <li>Follow a regular daily routine with consistent meal times</li>
+                                <li>Favor warm, moist, and grounding foods</li>
+                                <li>Practice calming activities like gentle yoga and meditation</li>
+                                <li>Keep warm and avoid cold, windy environments</li>
+                                <li>Get adequate rest and avoid overexertion</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="report-actions">
+                        <button class="btn" id="download-report">Download Report</button>
+                        <button class="btn" id="restart-assessment">Take Assessment Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ayurvedic Prakriti Assessment</h3>
+                    <p>Discover your unique mind-body constitution based on the ancient wisdom of Ayurveda.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#assessment">Assessment</a></li>
+                        <li><a href="#about">About Doshas</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Ayurvedic Prakriti Assessment | College Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
