@@ -253,38 +253,6 @@ This project demonstrates:
 
     Offline functionality
 
-🤝 Contributing
-
-This is a college project, but suggestions are welcome:
-
-    Fork the project
-
-    Create a feature branch
-
-    Commit your changes
-
-    Open a Pull Request
-
-📄 License
-
-This project is created for educational purposes as part of a college assignment.
-👥 Team
-
-    Developed by: [Your Name]
-
-    College: [Your College Name]
-
-    Course: [Your Course Name]
-
-    Subject: Indian Health, Wellness & Psychology
-
-📞 Contact & Support
-
-For questions or support regarding this project:
-
-    Email: [Your Email]
-
-    College: [College Department Contact]
 
 🙏 Acknowledgments
 
